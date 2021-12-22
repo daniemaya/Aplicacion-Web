@@ -1,0 +1,64 @@
+h2 {
+    background-color: #e72dde;
+    border-radius: 20px;
+    border-color: black;
+    padding: 10px;
+    text-align: center;
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animacion {
+    from {background-color: rgb(207, 90, 168);}
+    to {background-color: violet;}
+
+}
+
+h3 {
+    text-align: center;
+}
+
+
+
+body {
+   max-width: 900px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: justify;
+   padding: 10px;
+   background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+}
+
+.card mb-3 {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: auto;
+}
+img {
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+
+p {
+   margin: 15px; 
+}
+h5 {
+    margin: 15px;
+   
+}
+
+.columna {
+    margin: 15px;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+
